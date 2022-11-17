@@ -1,7 +1,7 @@
 <template>
   <section class="container">
       <div>
-        {{ users }}
+        {{ users[0].id }},{{ users[0].name }}
       </div>
   </section>
 </template>
