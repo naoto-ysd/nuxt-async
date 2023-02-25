@@ -7,6 +7,7 @@
 </template>
 
 <script>
+import { require } from 'require';
 const axios = require('axios')
 let url = 'https://jsonplaceholder.typicode.com/users'
 
